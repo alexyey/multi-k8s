@@ -1,0 +1,6 @@
+#Create a Travis CLI container and upload encrypted gcloud secret
+docker run -it -v ${pwd}:/app ruby:2.3 sh
+# gem install travis --no-rdoc --no-ri
+# travis
+# travis login
+# travis encrypt-file service-account.json -r <travis project>
